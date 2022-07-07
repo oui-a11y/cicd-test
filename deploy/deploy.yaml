@@ -11,7 +11,7 @@ spec:
       protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 33000
+      nodePort: 31000
   type: NodePort
 ---
 apiVersion: apps/v1
