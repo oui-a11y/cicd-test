@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: seerai-cicdtest 
-          image: $REGISTRY/$DOCKERHUB_NAMESPACE/$APP_NAME:SNAPSHOT-$BRANCH_NAME-$BUILD_NUMBER
+          image: $REGISTRY/$DOCKERHUB_NAMESPACE/$APP_NAME:SNAPSHOT-$BUILD_NUMBER
           ports:
             - containerPort: 80
               protocol: TCP
